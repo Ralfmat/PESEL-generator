@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator PESEL</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="pesel-input">
+            <label id="pesel-label">PESEL:</label>
+            <form id="pesel-form">
+                <input id="pesel-value" type="text" placeholder="Wprowadz pesel..." maxlength="11" required>
+            </form>
+        </div>
+        <div class="pesel-info">
+            <figure>
+                <figcaption id="isCorrect">Correct</figcaption>
+                    <ul>
+                        <div id="output-column-1">
+                            <li>Data urodzenia: </li>
+                            <a id="birthday"></a>
+                        </div>
+                        <div id="output-column-2">
+                            <li>Płeć: </li>
+                            <a id="sex"></a>
+                        </div>
+                    </ul>
+            </figure>
+            
+        </div>
+    </div>
+    <div class="pesel-generate">
+        <button id="generate-button">Generuj</button>
+    </div class="pesel-output">
+        <ul id="pesel-list">
+        </ul>
+</body>
+</html>

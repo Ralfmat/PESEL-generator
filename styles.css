@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1C1D1D;
+    color: #858584;
+    font-family: Lucida Console;
+    font-size: 200%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2E2E2E;
+    padding: 2vh 4vh;
+    margin-top: 10vh;
+    width: 45rem;
+    border-radius: 5px;
+}
+.pesel-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vh 2vh;
+    font-size: 2rem;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+}
+
+.pesel-info {
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    width: 29rem;
+}
+
+.pesel-info > figure {
+    margin: 20px;
+}
+
+.pesel-generate {
+    margin-top: 3vh;
+}
+
+button {
+    font-size: 2rem;
+    border-radius: 5px;
+    border: none;
+    color: #858584;
+    background-color: #2E2E2E;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #3E3E3E;
+  }
+
+ul {
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+input {
+    color: #858584;
+    font-size: 1rem;
+    border: none;
+    background-color: #2E2E2E;
+    border-radius: 5px;
+}
+
+#output-column-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#output-column-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
